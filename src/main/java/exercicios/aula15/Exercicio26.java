@@ -23,7 +23,7 @@ public class Exercicio26 {
                 desconto = 5;
             }
             valorTotal = litrosVendidos * precoAlcool;
-            System.out.println("Combustível: Álcool");
+            System.out.println("Combustível: Alcool");
         } else if (tipoCombustivel.equals("G")) {
             if (litrosVendidos <= 20) {
                 desconto = 4;
