@@ -7,6 +7,7 @@ public class Exercicio13 {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite um número de 1 a 7: ");
         int diaSemana = entrada.nextInt();
+        entrada.close();
 
         switch (diaSemana) {
             case 1:
